@@ -1,0 +1,8 @@
+<suite name="mysuite">
+    <test name="mytest">
+        <classes>
+            <class name="TestNG.FirstTest"/>//Package name.class name
+            <class name="TestNG.SecondTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<suite name="mysuite">
+    <test name="mytest">
+        <groups>
+            <run>
+                <include name="regression"/>
+                <include name="sanity"/>
+              <!--  <exclude name="sanity"/>-->
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Grouping.GroupingSanity_regression"/>//Package name.class name
+        </classes>
+    </test>
+</suite>
